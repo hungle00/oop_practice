@@ -4,7 +4,6 @@ public class BubbleSort implements Sort{
 
     @Override
     public void sort(int[] nums) {
-        System.out.println("Bubble Sort");
         // TODO Auto-generated method stub
         for (int i = 0; i < nums.length - 1; i++) { 
             boolean swapped = false;

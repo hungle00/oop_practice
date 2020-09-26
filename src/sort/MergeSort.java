@@ -4,7 +4,6 @@ public class MergeSort implements Sort {
     @Override
     public void sort(int[] nums) {
         // TODO Auto-generated method stub
-        System.out.println("Merge Sort");
         mergeSort(nums, 0, nums.length - 1);
     }
 

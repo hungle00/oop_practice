@@ -4,7 +4,6 @@ public class InsertionSort implements Sort{
 
     @Override
     public void sort(int[] nums) {
-        System.out.println("Insertion Sort");
         // TODO Auto-generated method stub
         for(int i = 1; i < nums.length; i++) {
             int key = nums[i];

@@ -5,7 +5,6 @@ public class QuickSort implements Sort {
     @Override
     public void sort(int[] nums) {
         // TODO Auto-generated method stub
-        System.out.println("Quick Sort");
         quickSort(nums, 0, nums.length);
     }
 
