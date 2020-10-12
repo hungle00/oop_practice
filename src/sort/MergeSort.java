@@ -36,12 +36,9 @@ public class MergeSort implements Sort {
             } else {
                 nums[k++] = right[j++];
             }
-        }
-        
+        }   
         while(i < n1) nums[k++] = left[i++];
 
         while(j < n2) nums[k++] = right[j++];
-
     }
-    
 }

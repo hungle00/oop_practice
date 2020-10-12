@@ -1,6 +1,5 @@
 package sort;
- 
-public interface Sort {
- 
+
+public interface Sort { 
    void sort(int[] nums);
 }
